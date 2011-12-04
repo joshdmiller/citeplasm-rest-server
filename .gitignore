@@ -1,0 +1,11 @@
+*.sw*
+*~
+src/logs
+src/.classpath
+src/.cache
+src/.target
+src/target/
+src/.project
+src/project/project
+src/tmp
+src/project/target/
