@@ -8,11 +8,12 @@ object ApplicationBuild extends Build {
     val appVersion      = "1.0"
 
     val appDependencies = Seq(
-      // Add your project dependencies here,
+        // Add your project dependencies here
+        "net.liftweb" %% "lift-json" % "2.4-M5"
     )
 
     val main = PlayProject(appName, appVersion, appDependencies).settings(defaultScalaSettings:_*).settings(
-      // Add your own project settings here      
+      // Add your own project settings here
     )
 
 }
